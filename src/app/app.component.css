@@ -11,6 +11,7 @@
   margin-top: 5%;
   color: white;
   font-family: 'Century Gothic',sans-serif;
+  position: sticky;
 }
 .box-img{
   border-radius: 50%;
@@ -33,12 +34,34 @@
 
   border-radius: 5%;
 }
-.box p{
+.box ul{
   text-align: justify;
   font-size: 30px;
   
 }
 
+.box il{
+  display: inline;
+}
+
+.inside-box ul{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.inside-box il{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.inside-box il a{
+}
 
 p {
   font-family: Lato;
