@@ -13,6 +13,7 @@ import { CalcService } from '../calc.service';
 import { CshbotService } from '../cshbot.service';
 import { ResumeComponent } from './resume/resume.component';
 import { BioComponent } from './bio/bio.component';
+import { ArtistryComponent } from './artistry/artistry.component';
 
 
 
@@ -24,7 +25,7 @@ import { BioComponent } from './bio/bio.component';
     { path: 'cshbot', component: CshbotComponent }
 
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent, ResumeComponent, BioComponent],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent, ResumeComponent, BioComponent, ArtistryComponent],
   providers: [CalcService, CshbotService],
   bootstrap:    [ AppComponent ]
 })
